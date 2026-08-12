@@ -1,0 +1,23 @@
+App(
+    appid="gatekeeper",
+    name="Gatekeeper",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="gatekeeper_app",
+    stack_size=4 * 1024,
+    fap_category="NFC",
+    fap_icon="icons/gatekeeper_10px.png",
+    fap_icon_assets="icons",
+    fap_author="at0m-b0mb",
+    fap_weburl="https://github.com/at0m-b0mb/Gatekeeper-FlipperZero",
+    fap_version="1.0",
+    # Explicit, so the recursive default does not sweep test/ (host-only code)
+    # into the firmware build.
+    sources=[
+        "gatekeeper.c",
+        "helpers/*.c",
+        "views/*.c",
+        "scenes/*.c",
+    ],
+    fap_description="Scan before you tap. A malicious NFC tag stuck over a real one on a parking meter, a poster or a restaurant table sends your phone to a phishing site before you have read anything, because the address the tag stores is not the address printed on the sign. Gatekeeper reads the tag first, on onboard NFC with no extra hardware, and grades what it found A to F. It parses the NDEF message itself - URI records, Smart Posters, Android app records - and then does the one thing that matters: it shows you which part of the address your phone will actually obey, highlighted, with everything the attacker chose for free dimmed around it. Forty-one signals across four families catch the @ trick, look-alike spellings, a real domain buried in a subdomain, punycode, open redirects, wallet-drainer wording and links that hand over an installer instead of a page - and it reads the tag as well as the link, so a tag anyone can still rewrite never scores above B. Nothing ever reaches A+: it can read the tag, it cannot read the website, and it says so on every verdict. Includes a walkthrough of how the attacks work, full tag details, a scan log and twelve demo tags that need no hardware.",
+    requires=["gui"],
+)
